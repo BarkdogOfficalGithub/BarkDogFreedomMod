@@ -6,20 +6,20 @@
 # Generic server information
 server:
   # You should change this to your server's name
-  name: TotalFreedom
+  name: InfinityFreedomBark
 
   # The address your server is located at. Please do not include the port.
-  address: play.totalfreedom.me
+  address: play.infinityfreedom.me
 
   # Shown at the server list
-  motd: TotalFreedom &8- Minecraft %mcversion%
+  motd: InfintyFreedom &8- Minecraft %mcversion% apart of Barkdog Network
 
   # Every word in the MOTD will be a different color unless prefixed by a color code
   colorful_motd: true
 
   # All players who show up as owner
   owners:
-    - markbyron
+    - xBarkPuppy1
 
   # URL players should appeal for bans at
   ban_url: http://totalfreedom.boards.net/
@@ -42,7 +42,7 @@ forceip:
   enabled: false
 
   # The port players should use to connect to your server; only applies to forceip
-  port: 25565
+  port: 2756
 
   # The kick message sent to players when logging in with the wrong hostname
   kickmsg: You have been kicked from the server - Please connect using %address%
@@ -229,31 +229,31 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&5[&eTotalFreedom&5] &b'
+  prefix: '&5[&eInfinityFreedomBarkdogNetwork&5] &b'
 
   announcements:
-    - 'Be sure to visit our forums at &6http://totalfreedom.boards.net/'
-    - 'You can always review the server rules here: &6http://totalfreedom.me/'
+    - 'Be sure to visit our forums at &6'
+    - 'You can always review the server rules here: &6http://infinityfreedom.me/'
     - 'If you are not OP, be sure to ask!'
     - 'Somebody breaking the rules? Report it! /report <user> <reason>'
     - 'Griefing is not allowed!'
-    - 'Hacked clients are allowed!'
+    - 'Hacked clients are not allowed!'
     - 'Interested in becoming admin? Do "/ai" for more information!'
     - 'You may view all online administrators via "/list -a"'
     - 'Save your buildings via WorldEdit! http://totalfreedom.me for more information!'
     - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
-    - 'You may contact TotalFreedom support on Twitter! https://tiny.re/tfsupport'
+    - '! '
     - 'You may download TotalFreedomMod here: https://tiny.re/tfm+'
-    - 'MarkByron is the owner of TotalFreedom.'
+    - ' is the owner of TotalFreedom.'
     - 'Server lagging?  Check the lag via "/tps"'
-    - 'You are allowed to record and stream videos on TotalFreedom.'
+    - '.'
     - 'Player vs player while in creative or god mode is forbidden!'
     - 'Spawn killing is forbidden!'
     - 'Invisible potions are allowed!'
     - 'Serial griefing and trolling will result in a permanent ban!'
-    - 'TotalFreedom does not accept any form of donations!'
+    - '!'
     - 'Racism, nazism, and sexism are strictly forbidden!'
-    - 'Join our Mumble server! IP: 64.34.202.140:2862'
+    - '2'
 
 # Famous players - cannot be banned by username
 famous_players:
@@ -295,6 +295,7 @@ famous_players:
   - dantdm
   - gizzy14gazza
   - furiousdestroyer
+  - xBarkPuppy1
 
 # IPs that can not be supered
 noadmin_ips:
