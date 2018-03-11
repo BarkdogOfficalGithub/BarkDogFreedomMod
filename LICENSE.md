@@ -1,9 +1,9 @@
-# TotalFreedom General License #
-_Version 2.0, 27th February 2015_
+# BarkdogFreedom General License #
+_Version 5.0, 27th February 2018_
 
-Copyright (c) 2011 Steven Lawson
+Copyright (c) 2015-2018 Yazan
 
-Copyright (c) 2012 Jerom van der Sar
+Copyright (c) 2015-2018 xBarkPupp1
 
 All rights reserved.
 
