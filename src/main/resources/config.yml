@@ -9,7 +9,7 @@ server:
   name: BarkdogFreedom
 
   # The address your server is located at. Please do not include the port.
-  address: play.infinityfreedom.me
+  address: TBD
 
   # Shown at the server list
   motd: BarkdogFreedom &8- Minecraft %mcversion% apart of Barkdog Network
