@@ -6,7 +6,7 @@
 # Generic server information
 server:
   # You should change this to your server's name
-  name: InfinityFreedomBark
+  name: BarkdogFreedom
 
   # The address your server is located at. Please do not include the port.
   address: play.infinityfreedom.me
@@ -26,7 +26,7 @@ server:
   ban_url: https://BarkdogNetwork.boards.net
 
   # URL players should appeal for permanent bans at
-  permban_url: http://bit.ly/TF_PermBan
+  permban_url: https://BarkdogNetwork.boards.net
 
 # Admin list
 adminlist:
