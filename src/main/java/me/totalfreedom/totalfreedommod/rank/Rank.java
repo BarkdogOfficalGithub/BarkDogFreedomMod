@@ -12,8 +12,8 @@ public enum Rank implements Displayable
     SUPER_ADMIN("a", "Super Admin", Type.ADMIN, "SA", ChatColor.AQUA),
     TELNET_ADMIN("a", "Telnet Admin", Type.ADMIN, "STA", ChatColor.DARK_GREEN),
     SENIOR_ADMIN("a", "Senior Admin", Type.ADMIN, "SrA", ChatColor.GOLD),
-    TELNET_CONSOLE("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE),
-    SENIOR_CONSOLE("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE);
+    MANAGER("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.PINK),
+    SYSTEM_ADMIN("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.RED);
     @Getter
     private final Type type;
     @Getter
@@ -88,11 +88,11 @@ public enum Rank implements Displayable
         switch (this)
         {
             case TELNET_ADMIN:
-            case TELNET_CONSOLE:
-                return TELNET_CONSOLE;
+            case MANAGER:
+                return MANAGER;
             case SENIOR_ADMIN:
-            case SENIOR_CONSOLE:
-                return SENIOR_CONSOLE;
+            case SYSTEM_ADMIN:
+                return SYSTEM_ADMIN;
             default:
                 return null;
         }
@@ -103,10 +103,10 @@ public enum Rank implements Displayable
         switch (this)
         {
             case TELNET_ADMIN:
-            case TELNET_CONSOLE:
+            case MANAGER:
                 return TELNET_ADMIN;
             case SENIOR_ADMIN:
-            case SENIOR_CONSOLE:
+            case SYSTEM_ADMIN:
                 return SENIOR_ADMIN;
             default:
                 return null;
