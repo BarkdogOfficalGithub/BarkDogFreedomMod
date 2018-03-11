@@ -12,7 +12,7 @@ server:
   address: play.infinityfreedom.me
 
   # Shown at the server list
-  motd: InfintyFreedom &8- Minecraft %mcversion% apart of Barkdog Network
+  motd: BarkdogFreedom &8- Minecraft %mcversion% apart of Barkdog Network
 
   # Every word in the MOTD will be a different color unless prefixed by a color code
   colorful_motd: true
@@ -20,9 +20,10 @@ server:
   # All players who show up as owner
   owners:
     - xBarkPuppy1
+    - Frab
 
   # URL players should appeal for bans at
-  ban_url: http://totalfreedom.boards.net/
+  ban_url: https://BarkdogNetwork.boards.net
 
   # URL players should appeal for permanent bans at
   permban_url: http://bit.ly/TF_PermBan
@@ -226,77 +227,34 @@ announcer:
   enabled: true
 
   # Interval between announcements, in seconds.
-  interval: 600
+  interval: 60
 
   # Prefix for all announcements
-  prefix: '&5[&eInfinityFreedomBarkdogNetwork&5] &b'
+  prefix: '&5[&e&b&lBarkdogNetwork&5] &b'
 
   announcements:
     - 'Be sure to visit our forums at &6'
-    - 'You can always review the server rules here: &6http://infinityfreedom.me/'
+    - 'You can always review the server rules here: &6https://BarkdogNetwork.com/'
     - 'If you are not OP, be sure to ask!'
     - 'Somebody breaking the rules? Report it! /report <user> <reason>'
     - 'Griefing is not allowed!'
     - 'Hacked clients are not allowed!'
     - 'Interested in becoming admin? Do "/ai" for more information!'
     - 'You may view all online administrators via "/list -a"'
-    - 'Save your buildings via WorldEdit! http://totalfreedom.me for more information!'
-    - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
-    - '! '
     - 'You may download TotalFreedomMod here: https://tiny.re/tfm+'
-    - ' is the owner of TotalFreedom.'
+    - 'xBarkPuppy1 is the owner of BarkdogFreedom.'
     - 'Server lagging?  Check the lag via "/tps"'
-    - '.'
     - 'Player vs player while in creative or god mode is forbidden!'
     - 'Spawn killing is forbidden!'
     - 'Invisible potions are allowed!'
     - 'Serial griefing and trolling will result in a permanent ban!'
-    - '!'
     - 'Racism, nazism, and sexism are strictly forbidden!'
-    - '2'
 
 # Famous players - cannot be banned by username
 famous_players:
-  - honeydew
-  - xephos
-  - captainsparklez
-  - truemu
-  - kiershar
-  - fvdisco
-  - sethbling
-  - notch
-  - jeb_
-  - gamechap
-  - bertiechap
-  - vechs
-  - antvenom
-  - chimneyswift
-  - deadmau5
-  - etho
-  - ethoslab
-  - skydoesminecraft
-  - skythekidrs
-  - tobyturner
-  - xxslyfoxhoundxx
-  - paulsoaresjr
-  - sips_
-  - deadlox
-  - xxslyxx
-  - jeromeasf
-  - dinnerbone
-  - grumm
-  - grum
-  - evilseph
-  - cavemanfilms
-  - herobrine
-  - whiteboy7thst
-  - stampylonghead
-  - stampylongnose
-  - dantdm
-  - gizzy14gazza
-  - furiousdestroyer
   - xBarkPuppy1
-
+  - M1CE
+  - Frab
 # IPs that can not be supered
 noadmin_ips:
   - 167.114.97.16
@@ -321,7 +279,7 @@ httpd:
 
 # Inactivity Auto-Kick (Requires Essentials)
 autokick:
-  enabled: true
+  enabled: false
 
   # Percentage of server player capacity used at which players will be automatically kicked for being inactive. Range: 0.0 - 1.0
   threshold: 0.9
